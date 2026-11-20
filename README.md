@@ -192,11 +192,11 @@ python manage.py runserver
 
 Backend URL:
 
-http://127.0.0.1:8000/
+http://https://air-booking-backend.onrender.com/
 
 Django Admin:
 
-http://127.0.0.1:8000/admin/
+http://https://air-booking-backend.onrender.com/admin/
 
 ## 7. Frontend Installation and Setup
 

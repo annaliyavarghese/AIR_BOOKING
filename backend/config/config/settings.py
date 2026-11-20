@@ -200,6 +200,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/6.1/ref/settings/#databases
 
 
+import os
 import dj_database_url
 
 DATABASES = {

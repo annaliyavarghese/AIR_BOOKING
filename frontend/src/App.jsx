@@ -20,7 +20,8 @@ import ManageBookings from "./admin/ManageBookings";
 
 import "./App.css";
 
-const API = "http://127.0.0.1:8000/api";
+const API = "https://air-booking-backend.onrender.com/api";
+
 
 // ADMIN ROUTE PROTECTION
 

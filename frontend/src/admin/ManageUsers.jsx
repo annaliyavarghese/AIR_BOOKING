@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./ManageUsers.css";
 
-const API = "http://127.0.0.1:8000/api";
+const API = "http://https://air-booking-backend.onrender.com/api";
 
 function ManageUsers() {
   const [users, setUsers] = useState([]);
