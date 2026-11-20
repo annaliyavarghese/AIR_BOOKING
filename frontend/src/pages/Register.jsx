@@ -24,7 +24,7 @@ function Register() {
 
     try {
       const response = await axios.post(
-        "http://https://air-booking-backend.onrender.com/api/auth/register/",
+        "https://air-booking-backend.onrender.com/api/auth/register/",
         formData
       );
 
