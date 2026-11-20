@@ -1,0 +1,86 @@
+
+.admin-dashboard {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f6fb;
+  font-family: Arial, sans-serif;
+}
+
+.admin-sidebar {
+  width: 240px;
+  background: #172554;
+  color: white;
+  padding: 25px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.admin-sidebar h2 {
+  margin-bottom: 5px;
+}
+
+.admin-sidebar p {
+  color: #a5b4fc;
+  font-size: 12px;
+}
+
+.admin-sidebar a {
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 7px;
+}
+
+.admin-sidebar a:hover {
+  background: #334155;
+}
+
+.admin-sidebar button {
+  margin-top: auto;
+  padding: 12px;
+  border: none;
+  border-radius: 7px;
+  background: #dc2626;
+  color: white;
+  cursor: pointer;
+}
+
+.admin-main {
+  flex: 1;
+  padding: 35px;
+}
+
+.admin-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+  margin-top: 30px;
+}
+
+.admin-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  color: #172554;
+  text-decoration: none;
+  box-shadow: 0 3px 12px #00000012;
+}
+
+.admin-card:hover {
+  transform: translateY(-4px);
+}
+
+@media (max-width: 650px) {
+  .admin-dashboard {
+    flex-direction: column;
+  }
+
+  .admin-sidebar {
+    width: auto;
+  }
+
+  .admin-main {
+    padding: 20px;
+  }
+}
